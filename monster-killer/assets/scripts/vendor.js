@@ -42,3 +42,15 @@ function removeBonusLife() {
 function setPlayerHealth(health) {
   playerHealthBar.value = health;
 }
+
+for(let i=0;i<5;i++){
+  for(j=0;j<5;j++){
+    if(i==3&&j==3){
+      continue;
+    }
+    else{
+      console.log(i,j);
+    }
+  }
+  
+}
